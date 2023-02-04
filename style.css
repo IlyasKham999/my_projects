@@ -1,0 +1,19 @@
+body{
+    background-image: url(./img/austin-curtis-YVY61lIO_gw-unsplash.PNG);
+    background-size: 100% auto;
+    text-align: center;
+    color: #fff;
+}
+
+.formochka{
+    width: 800px;
+    border: 2px solid #fff;
+    border-radius: 4ex;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}

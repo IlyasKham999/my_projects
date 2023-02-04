@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="FormId" class="myForm1">
+        <h1>Исходные данные</h1>
+        <form class="formochka" id="FormId">
+            <div>Стоимость системы, руб. <input type="number" id="text0"></div>
+            <div>Среднее количество отказов в год, ед. <input type="number" id="text1"></div>
+            <div>Средние затраты времени на обнаружение одного отказа. <input type="number" id="text2"></div>
+            <div>Средние затраты времени на устранение одного отказа, ч. <input type="number" id="text3"></div>
+            <div>Средние затраты на один час поиска отказов, руб. <input type="number" id="text4"></div>
+            <div>Средние расходы на один час ремонтных работ, руб. <input type="number" id="text5"></div>
+            <div>Срок службы системы, лет. <input type="number" id="text6"></div>
+            <div>Даходы за каждый фактически отработанный системой час руб. <input type="number" id="text7"></div>
+            <div>Эксплуатационные расходы за каждый фактически отработанный системой час, руб. <input type="number" id="text8"></div>
+            <div>Штрафные санкции за каждый час простоя систены, руб. <input type="number" id="text9"></div>
+            <div>Время смены. <input type="number" id="text10"></div>
+            <div>Количество рабочих дней в год, дн. <input type="number" id="text11"></div>
+            <div>
+                <button name="submit" id = "ButtonId" class="mybtn">Расчитать</button>
+            </div>
+            <div>
+                <button name="" id = "" class="">Очистить</button>
+            </div>
+        </form>
+    </div>
+    <div class="myForm2 hidden">
+        <h1>Расчетные данные</h1>
+        <form class="formochka" id="FormId2">
+            <p id="exx"></p>
+            <div>Время работы системы плавное, ч. <input type="number" id="ex0"></div>
+            <div>Время простоя системы, ч. <input type="number" id="ex1"></div>
+            <div>Фактическое время работы системы ч. <input type="number" id="ex2"></div>
+            <div>Средние затраты, связанные с обнаружением отказа. <input type="number" id="ex3"></div>
+            <div>Средние затратыб, связанные с устранением отказа. <input type="number" id="ex4"></div>
+            <div>Эксплуатационные оасходы за весб период работы системы. <input type="number" id="ex5"></div>
+            <div>Размер штрафных санкций за простой системы во время ее эксплуатации, руб. <input type="number" id="ex6"></div>
+            <div>Общая сумма затрат, руб. <input type="number" id="ex7"></div>
+            <div>Даходы полученные при работе системы. <input type="number" id="ex8"></div>
+            <div>Прибль при эксплуатации системы. <input type="number" id="ex9"></div>
+            <div>
+                <button name="submit"  class="mybtn">Исходные данные</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="./js.js">
+</script>
+</html>
